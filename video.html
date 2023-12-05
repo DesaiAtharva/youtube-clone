@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./video.css" />
+  </head>
+  <body>
+
+    <nav>
+      <div class="logos">
+        <img id="menu" src="./assets/hamburger.svg" alt="menu" />
+        <img id="logo" src="./assets/youtube_logo.svg" alt="logo" />
+      </div>
+      <div class="Box-1">
+        <input id="search-input" type="text" placeholder="Search" />
+        <button id="search-button">
+          <img src="./assets/search.svg" alt="" />
+        </button>
+        <button id="mic-button">
+          <img src="./assets/mic.svg" alt="mic" />
+        </button>
+      </div>
+      <div class="navigations">
+        <img src="./assets/videocam.svg" alt="cam" />
+        <img src="./assets/apps.svg" alt="apps" />
+        <img src="./assets/notification_bell.svg" alt="bell" />
+        <img src="./assets/avatar.png" alt="profile" />
+      </div>
+    </nav>
+    <section class="mainframe">
+      <div id="playframe">
+        <div id="play-frame"></div>
+        <div id="comments-box"></div>
+      </div>
+      <div id="recommendation"></div>
+    </section>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./video.js"></script>
+  </body>
+</html>

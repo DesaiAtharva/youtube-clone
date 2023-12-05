@@ -1,87 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Youtube-clone</title>
-        <link rel="stylesheet" href="./style.css" />
-    </head>
-    <body>
-     
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube-clone</title>
+    
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+  <body>
+
+    <nav>
+      <div class="logos">
+        <img id="menu" src="./assets/hamburger.svg" alt="menu" />
+        <img id="logo" src="./assets/youtube_logo.svg" alt="Atharva_desi" />
+      </div>
+      <div class="Box-1">
+        <input id="search-input" type="text" placeholder="Search" />
+        <button id="search-button">
+          <img src="./assets/search.svg" alt="" />
+        </button>
+        <button id="mic-button">
+          <img src="./assets/mic.svg" alt="mic" />
+        </button>
+      </div>
+      <div class="navigations">
+        <img src="./assets/videocam.svg" alt="cam" />
+        <img src="./assets/apps.svg" alt="apps" />
+        <img src="./assets/notification_bell.svg" alt="bell" />
+        <img src="./assets/avatar.png" alt="profile" />
+      </div>
+    </nav>
+
+    <main>
+      <aside>
+
+        <div class="top-side">
+          <div>
+            <img src="./assets/home.svg" alt="home" />
+            <p>Home</p>
+          </div>
+          <div>
+            <img src="./assets/explore.svg" alt="explore" />
+            <p>Explore</p>
+          </div>
+          <div>
+            <img src="./assets/subs.svg" alt="subscriptions" />
+            <p>Subscriptions</p>
+          </div>
+        </div>
 
 
-        <nav class="flex-div">
-     
-            <div class="nav-left flex-div">
-                <img
-                    src="./images/ham-icon.png"
-                    alt="ham-icon"
-                />
-                <a href="#"
-                    ><img
-                        src="./images/youtube-logo.png"
-                        alt="Youtube-logo"
-                /></a>
-            </div>
+        <div class="mid-side">
+          <div>
+            <img src="./assets/library.svg" alt="library" />
+            <p>Library</p>
+          </div>
+          <div>
+            <img src="./assets/history.svg" alt="history" />
+            <p>History</p>
+          </div>
+          <div>
+            <img src="./assets/yourVideos.svg" alt="Your videos" />
+            <p>Your Videos</p>
+          </div>
+          <div>
+            <img src="./assets/watchLater.svg" alt="Watch later" />
+            <p>Watch Later</p>
+          </div>
+          <div>
+            <img src="./assets/liked.svg" alt="liked videos" />
+            <p>Liked Videos</p>
+          </div>
+          <div>
+            <img src="./assets/more.svg" alt="show more" />
+            <p>Show 13 More</p>
+          </div>
+        </div>
 
 
+        <div class="subscription">
+          <h5>SUBSCRIPTIONS</h5>
+          <div>
+            <button>
+              <img src="./assets/JamesGouse.png" alt="James Gouse" />
+              <p>James Gouse</p>
+            </button>
+          </div>
 
-      
-            <div class="nav-middle flex-div">
-                <div class="box flex-div">
-                    <input
-                        type="text"
-                        id="search-input"
-                        placeholder="Search"
-                    />
-                    <a onclick="searchVideos()">
-                        <img
-                            src="./images/search.png"
-                            alt="search"
-                            style="width: 64px; height: 40px"
-                        />
-                    </a>
-                </div>
-                <div><img
-                    src="./images/mic-logo.png"
-                    alt="mic-logo"
-                /></div>
-            </div>
-           
-            <div id="nav-right">
-                <img src="./images/create.png" alt="create" />
-                <img src="./images/app-logo.png" alt="app-logo" />
-                <img
-                    src="./images/bell.png"
-                    alt="bell"
-                />
-                <img
-                    src="./images/User-Avatar.png"
-                    alt="User-Avatar"
-                />
-            </div>
-        </nav>
+          <div>
+            <button>
+              <img src="./assets/AlanCooper.png" alt="Alan Cooper" />
+              <p>Alan Cooper</p>
+            </button>
+          </div>
 
+          <div>
+            <button>
+              <img src="./assets/MarcusLevin.png" alt="Marcus Levin" />
+              <p>Marcus Levin</p>
+            </button>
+          </div>
+
+          <div>
+            <button>
+              <img src="./assets/AlexisSears.png" alt="Alexis Sears" />
+              <p>Alexis Sears</p>
+            </button>
+          </div>
+
+          <div>
+            <button>
+              <img src="./assets/JesicaLambert.png" alt="Jesica Lambert" />
+              <p>Jesica Lambert</p>
+            </button>
+          </div>
+
+          <div>
+            <button>
+              <img src="./assets/AnnaWhite.png" alt="Anna White" />
+              <p>Anna White</p>
+            </button>
+          </div>
+
+          <div>
+            <button>
+              <img src="./assets/SkylarDias.png" alt="Skylar Dias" />
+              <p>Skylar Dias</p>
+            </button>
+          </div>
+
+          <div>
+            <button>
+              <img src="./assets/more.svg" alt="more" />
+              <p>Show 13 more</p>
+            </button>
+          </div>
+        </div>
+
+        <div class="bottom-side">
+          <h5>MORE FROM YOUTUBE</h5>
+          <div>
+            <img src="./assets/YTPremium.svg" alt="Youtube Premium" />
+            <p>Youtube Premium</p>
+          </div>
+          <div>
+            <img src="./assets/Gaming.svg" alt="Gaming" />
+            <p>Gaming</p>
+          </div>
+          <div>
+            <img src="./assets/Live.svg" alt="Live" />
+            <p>Live</p>
+          </div>
+        </div>
+
+      </aside>
+
+      <section class="box-2" id="box">
        
-        <div class="left-pannel">
-            <img
-                src=""
-                alt=""
-            />
-        </div>
-
-        <div class="top-menu">
-            <img src="" alt="">
-        </div>
-
-     
-
-        <main id="container">
-            Loading...
-            Please wait...            
-        </main>
-        
-      
-    </body>
+      </section>
+    </main>
+  </body>
+  
+  <script src="./script.js"></script>
 </html>
